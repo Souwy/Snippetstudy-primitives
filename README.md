@@ -85,6 +85,6 @@ clone (Githbu): have a "static" copy of a repository. It is not linked in any wa
   difference between primitive type and operators
 * next steps: 
   * hoisting
-  * block-scope-let-vs-var
+  * [block-scope-let-vs-var](https://github.com/elewa-academy/block-scope-let-vs-var#index)
   * 12345-345
   
