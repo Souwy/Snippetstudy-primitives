@@ -61,12 +61,13 @@ sketches : insert img here l8ter _to be continued_
 
 ## Vocabulary
 
-### Primitive types
+### Primitive data-types
 Undefined: only one value, undefined  
 Null: only one value, null   
 Strings: anything between quotes. "anything"   
 Number: [0-9], NaN (Not a Number), Inf (Infitnity)  
 Boolean: True/False   
+
 ### Operators
 Typeof: take anything mentionned before and makes it a string   
 Void: takes everything and makes it undefined (not absolutely useful)   
