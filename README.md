@@ -1,6 +1,7 @@
 # Snippetstudy-primitives
 
 ## Description
+This is about studying the primitive data types, how operators work and type conversions.
 
 ## Learning objectives (keywords)
 * Primitive data types (type, value)
@@ -25,7 +26,27 @@ typeof (typeof Number(void Boolean(null))).toString();
     // s6: (String, "string")
 ```
 
-## State deconstruction
+## States deconstruction
+S0. you begin with the starting point: null
+S1. 
+## State & operation back-and-forth
+
+state nr. | State | Operation
+------------|------------ | -------------
+S0  | null |  
+S1  |  | Boolean (null)
+S2 | false | 
+S3 | | Void (undefined; "undefined")
+S4 | undefined | 
+S5 |  | Number (Number; Nan)
+S6 | Nan | 
+S7 |  | typeof (string; "Number")
+S8 | "Number" | 
+S9 | | "Number".toString
+S10| "Number" | 
+S11 | | typeof "number" (BECAUSE "number" is actually a string. "n-u-m-b-e-r"
+S12 | "string" | 
+
 
 ## Study Links
 [repl.it](https://repl.it/@colevandersWands/primitive-types)  
@@ -34,16 +55,21 @@ typeof (typeof Number(void Boolean(null))).toString();
 sketches : insert img here l8ter  
 
 ## Vocab
+
+### primitive types
 Undefined: only one value, undefined  
 Null: only one value, null   
 Strings: anything between quotes. "anything"   
 Number: [0-9], NaN (Not a Number), Inf (Infitnity)  
 Boolean: True/False  
-Void: takes everything and makes it undefined (not absolutely useful)    
+    
 
+### operators
+Typeof: take anything mentionned before and makes it a string   
+Void: takes everything and makes it undefined (not absolutely useful)   
 
 ## Review
-	things you struggled with
+* struggles: how the value "number", which is already a string, becomes "string" after the operator "typeof" is executed.
 	things you learned
 	vocab
 	next steps
