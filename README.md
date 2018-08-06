@@ -23,10 +23,10 @@ typeof (typeof Number(void Boolean(null))).toString();
 ```
 
 ## Study Links
-> [repl.it](https://repl.it/@colevandersWands/primitive-types)  
-> [pytut](https://goo.gl/QahvNv)
-> [debugger](https://www.w3schools.com/code/tryit.asp?filename=FU1BIF6VJMS4)
-> sketches : insert img here l8ter
+[repl.it](https://repl.it/@colevandersWands/primitive-types)  
+[pytut](https://goo.gl/QahvNv)  
+[debugger](https://www.w3schools.com/code/tryit.asp?filename=FU1BIF6VJMS4)  
+sketches : insert img here l8ter  
 
 ## Review
 	things you struggled with
