@@ -1,7 +1,11 @@
 # Snippetstudy-primitives
 
 ## Description
-This is about studying the primitive data types, how operators work and type conversions.
+This is about studying the primitive data types, how operators work and type conversions. 
+
+<!---
+personal note: use ctrl+f and lookup "continued" to find where you haven't finish.
+-->
 
 ## Learning objectives (keywords)
 * Primitive data types (type, value)
