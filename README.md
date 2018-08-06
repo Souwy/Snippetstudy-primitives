@@ -67,6 +67,11 @@ Boolean: True/False
 Typeof: take anything mentionned before and makes it a string   
 Void: takes everything and makes it undefined (not absolutely useful)   
 
+### Misc
+repos: repository.
+fork (Github): have an updated copy of a repository. can pull request to the OP, the OP can accept or refuse.
+clone (Githbu): have a "static" copy of a repository. It is not linked in any ways to the OP repos.
+
 ## Review
 * Struggles: how the value "number", which is already a string, becomes "string" after the operator "typeof" is executed.
 * Learning objectives that need extra work?   
