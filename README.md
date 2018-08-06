@@ -77,9 +77,14 @@ fork (Github): have an updated copy of a repository. can pull request to the OP,
 clone (Githbu): have a "static" copy of a repository. It is not linked in any ways to the OP repos.   
 
 ## Review
-* Struggles: how the value "number", which is already a string, becomes "string" after the operator "typeof" is executed.
+* Struggles: 
+  * how the value "number", which is already a string, becomes "string" after the operator "typeof" is executed.
+  * hoisting.
 * Learning objectives that need extra work?   
   value, type
   difference between primitive type and operators
-* next steps
+* next steps: 
+  * hoisting
+  * block-scope-let-vs-var
+  * 12345-345
   
