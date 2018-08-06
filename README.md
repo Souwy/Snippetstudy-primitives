@@ -27,8 +27,9 @@ typeof (typeof Number(void Boolean(null))).toString();
 ```
 
 ## States deconstruction
-S0. you begin with the starting point: null
-S1. 
+S0. you begin with the starting point: null   
+S1. _to be continued_
+
 ## State & operation back-and-forth
 
 state nr. | State | Operation
@@ -52,7 +53,7 @@ S12 | "string" |
 [repl.it](https://repl.it/@colevandersWands/primitive-types)  
 [pytut](https://goo.gl/QahvNv)  
 [debugger](https://www.w3schools.com/code/tryit.asp?filename=FU1BIF6VJMS4)  
-sketches : insert img here l8ter  
+sketches : insert img here l8ter _to be continued_
 
 ## Vocab
 
@@ -61,15 +62,15 @@ Undefined: only one value, undefined
 Null: only one value, null   
 Strings: anything between quotes. "anything"   
 Number: [0-9], NaN (Not a Number), Inf (Infitnity)  
-Boolean: True/False  
-    
-
+Boolean: True/False   
 ### operators
 Typeof: take anything mentionned before and makes it a string   
 Void: takes everything and makes it undefined (not absolutely useful)   
 
 ## Review
-* struggles: how the value "number", which is already a string, becomes "string" after the operator "typeof" is executed.
-	things you learned
-	vocab
-	next steps
+* Struggles: how the value "number", which is already a string, becomes "string" after the operator "typeof" is executed.
+* Learning objectives that need extra work?   
+  value, type
+  difference between primitive type and operators
+* next steps
+  
