@@ -12,7 +12,7 @@ personal note: use ctrl+f and lookup "continued" to find where you haven't finis
 * Type conversions
 * Operators
 
-## Code snippet
+## Code snippet #1
 ```js
 typeof (typeof Number(void Boolean(null))).toString();
     // s0: (Null, null)
@@ -30,15 +30,15 @@ typeof (typeof Number(void Boolean(null))).toString();
     // s6: (String, "string")
 ```
 [repl.it](https://repl.it/@colevandersWands/primitive-types)  
-[pytut](https://goo.gl/QahvNv)  
-[debugger](https://www.w3schools.com/code/tryit.asp?filename=FU1BIF6VJMS4) 
+[PythonTutor](https://goo.gl/QahvNv)  
+[Debugger](https://www.w3schools.com/code/tryit.asp?filename=FU1BIF6VJMS4) 
    
 S0. (State 0) you begin with the starting point: null   
 S1. _to be continued_
-
-## State & operation back-and-forth
-
-state nr. | State | Operation
+   
+State & operation back-and-forth:
+   
+State nr. | State | Operation
 ------------|------------ | -------------
 S0  | null |  
 S1  |  | Boolean (null)
@@ -54,7 +54,43 @@ S10| "Number" |
 S11 | | typeof "number" (BECAUSE "number" is actually a string. "n-u-m-b-e-r"
 S12 | "string" | 
 
+## Code Snippet #2
+````js
+var result;
+var number = 10;
 
+result = typeof Boolean (void (number.toString()) + String(null)).valueOf();
+
+console.log(result);
+
+````
+[PythonTutor](http://www.pythontutor.com/javascript.html#code=var%20result%3B%0Avar%20number%20%3D%2010%3B%0A%0Aresult%20%3D%20typeof%20Boolean%20%28void%20%28number.toString%28%29%29%20%2B%20String%28null%29%29.valueOf%28%29%3B%0A%0Aconsole.log%28result%29%3B&curInstr=4&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D)
+[Repl.it](https://repl.it/@Joaoviana/CodeSnippet)
+## Code Snippet #3
+````js
+var result;
+var number = 10;
+
+result = typeof Boolean (void (number.toString()) + String(null)).valueOf();
+number.toString();
+// s0 : (String, '10')
+String(null);
+// s0 : (String, 'null')
+void('10');
+// s1: (undefined, undefined)
+(undefined+ 'null').valueOf();
+// s2: (string, 'undefinednull')
+Boolean ('undefinednull');
+//s3: (Boolean, true)
+typeof true;
+//s4 (string, 'boolean')
+````
+S0. number.toString() converts number variable 10 to a string '10' ; String(null) converts it to string 'null'   
+S1. void operator makes variable undefined - it acts as a 'dissociation' of its passed value   
+S2. valueOf() returns the primitive value of a Number; however, it is taking 'undefinednull' string as an argument.   
+S3. Boolean Primitive takes in a string and returns true.   
+S4. typeof true is string 'Boolean'   
+  
 ## Helpful Links
 
 ## Vocabulary
@@ -67,14 +103,14 @@ Number: [0-9], NaN (Not a Number), Inf (Infitnity)
 Boolean: True/False   
 
 ### Operators
-JavaScript operators are used to assign values, compare values, perform arithmetic operations, and more. You have
+JavaScript operators are used to assign values, compare values, perform arithmetic operations, and more.   
 Typeof: it is a Type operator. Returns the type of variable. Takes anything mentionned before and makes it a string   
 Void: takes everything and makes it undefined (not absolutely useful)   
 
 ### Misc
-repos: repository.   
-fork (Github): have an updated copy of a repository. can pull request to the OP, the OP can accept or refuse.   
-clone (Githbu): have a "static" copy of a repository. It is not linked in any ways to the OP repos.   
+Repos: repository.   
+Fork (Github): have an updated copy of a repository. can pull request to the OP, the OP can accept or refuse.   
+Clone (Githbu): have a "static" copy of a repository. It is not linked in any ways to the OP repos.   
 
 ## Review
 * Struggles: 
