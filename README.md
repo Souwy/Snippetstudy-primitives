@@ -69,7 +69,8 @@ Number: [0-9], NaN (Not a Number), Inf (Infitnity)
 Boolean: True/False   
 
 ### Operators
-Typeof: take anything mentionned before and makes it a string   
+JavaScript operators are used to assign values, compare values, perform arithmetic operations, and more. You have
+Typeof: it is a Type operator. Returns the type of variable. Takes anything mentionned before and makes it a string   
 Void: takes everything and makes it undefined (not absolutely useful)   
 
 ### Misc
