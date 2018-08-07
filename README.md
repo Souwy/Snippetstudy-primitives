@@ -1,7 +1,7 @@
 # Snippetstudy-primitives
 
 ## Description
-This is about studying the primitive data types, how operators work and type conversions. 
+This is about studying the primitive data types, how operators work and type conversions. Here, we talk about States and Operation. the operation does something, and the console returns a state. and so on.
 
 <!---
 personal note: use ctrl+f and lookup "continued" to find where you haven't finish.
@@ -29,9 +29,11 @@ typeof (typeof Number(void Boolean(null))).toString();
     typeof "number";
     // s6: (String, "string")
 ```
-
-## States deconstruction
-S0. you begin with the starting point: null   
+[repl.it](https://repl.it/@colevandersWands/primitive-types)  
+[pytut](https://goo.gl/QahvNv)  
+[debugger](https://www.w3schools.com/code/tryit.asp?filename=FU1BIF6VJMS4) 
+   
+S0. (State 0) you begin with the starting point: null   
 S1. _to be continued_
 
 ## State & operation back-and-forth
@@ -53,11 +55,7 @@ S11 | | typeof "number" (BECAUSE "number" is actually a string. "n-u-m-b-e-r"
 S12 | "string" | 
 
 
-## Study Links
-[repl.it](https://repl.it/@colevandersWands/primitive-types)  
-[pytut](https://goo.gl/QahvNv)  
-[debugger](https://www.w3schools.com/code/tryit.asp?filename=FU1BIF6VJMS4)  
-sketches : insert img here l8ter _to be continued_
+## Helpful Links
 
 ## Vocabulary
 
@@ -86,7 +84,6 @@ clone (Githbu): have a "static" copy of a repository. It is not linked in any wa
   value, type
   difference between primitive type and operators
 * next steps: 
-  * hoisting
-  * [block-scope-let-vs-var](https://github.com/elewa-academy/block-scope-let-vs-var#index)
   * 12345-345
+  * strenghten my vocabulary
   
