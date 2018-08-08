@@ -1,4 +1,4 @@
-# Snippetstudy_primitives-types
+# Snippetstudy_Primitives-types
 
 ## Description
 This is about studying the primitive data types, how operators work and type conversions. Here, we talk about States and Operation. the operation does something, and the console returns a state. and so on.
