@@ -41,18 +41,18 @@ State & operation back-and-forth:
 State nr. | State | Operation
 ------------|------------ | -------------
 S0  | null |  
-S1  |  | Boolean (null)
-S2 | false | 
-S3 | | Void (undefined; "undefined")
-S4 | undefined | 
-S5 |  | Number (Number; Nan)
-S6 | Nan | 
-S7 |  | typeof (string; "Number")
-S8 | "Number" | 
-S9 | | "Number".toString
-S10| "Number" | 
-S11 | | typeof "number" (BECAUSE "number" is actually a string. "n-u-m-b-e-r"
-S12 | "string" | 
+  |  | Boolean (null)
+S1 | false | 
+ | | Void (undefined; "undefined")
+S2 | undefined | 
+ |  | Number (Number; Nan)
+S3 | Nan | 
+ |  | typeof (string; "Number")
+S4 | "Number" | 
+ | | "Number".toString
+S5| "Number" | 
+ | | typeof "number" (BECAUSE "number" is actually a string. "n-u-m-b-e-r"
+S6 | "string" | 
 
 ## Code Snippet #2
 ````js
