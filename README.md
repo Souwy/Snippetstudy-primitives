@@ -1,4 +1,4 @@
-# Snippetstudy-primitives
+# Snippetstudy_primitives-types
 
 ## Description
 This is about studying the primitive data types, how operators work and type conversions. Here, we talk about States and Operation. the operation does something, and the console returns a state. and so on.
@@ -36,7 +36,7 @@ typeof (typeof Number(void Boolean(null))).toString();
 S0. (State 0) you begin with the starting point: null   
 S1. _to be continued_
    
-State & operation back-and-forth:
+Tracing table (deconstruction of input/output):
    
 State nr. | State | Operation
 ------------|------------ | -------------
