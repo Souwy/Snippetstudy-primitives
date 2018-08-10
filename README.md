@@ -96,30 +96,31 @@ S4. typeof true is string 'Boolean'
 ## Vocabulary
 
 ### Primitive data-types
-Undefined: only one value, undefined  
-Null: only one value, null   
-Strings: anything between quotes. "anything"   
-Number: [0-9], NaN (Not a Number), Inf (Infitnity)  
-Boolean: True/False   
+- **Undefined**: only one value, undefined  
+- **Null**: only one value, null   
+- **Strings**: anything between quotes. "anything"   
+- **Number**: [0-9], NaN (Not a Number), Inf (Infitnity)  
+- **Boolean**: True/False   
 
 ### Operators
 JavaScript operators are used to assign values, compare values, perform arithmetic operations, and more.   
-Typeof: it is a Type operator. Returns the type of variable. Takes anything mentionned before and makes it a string   
-Void: takes everything and makes it undefined (not absolutely useful)   
+- **Typeof**: it is a Type operator. Returns the type of variable. Takes anything mentionned before and makes it a string   
+- **Void**: takes everything and makes it undefined (not absolutely useful)   
+- **Arithmetic operators**:
 
 ### Misc
-Repos: repository.   
-Fork (Github): have an updated copy of a repository. can pull request to the OP, the OP can accept or refuse.   
-Clone (Githbu): have a "static" copy of a repository. It is not linked in any ways to the OP repos.   
+- **Repos**: repository.   
+- **Fork (Github)**: have an updated copy of a repository. can pull request to the OP, the OP can accept or refuse.   
+- **Clone (Github)**: have a "static" copy of a repository. It is not linked in any ways to the OP repos.   
 
 ## Review
 * Struggles: 
-  * how the value "number", which is already a string, becomes "string" after the operator "typeof" is executed.
-  * hoisting.
+  * How the value "number", which is already a string, becomes "string" after the operator "typeof" is executed
+  * Hoisting
 * Learning objectives that need extra work?   
-  value, type
-  difference between primitive type and operators
-* next steps: 
+  * Value, type
+  * Difference between primitive type and operators
+* Next steps: 
   * 12345-345
-  * strenghten my vocabulary
+  * Strenghten my vocabulary
   
